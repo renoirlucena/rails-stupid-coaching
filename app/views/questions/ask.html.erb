@@ -1,0 +1,10 @@
+<div>
+<p>Ask your coach anything</p>
+</div>
+<form action="/answer" data-turbo="false">
+<div class="col-4 d-flex">
+  <input type="text" name="answer" class="input-group mb-3" value="<%= params[:answer] %>">
+  <input type="submit" class="btn btn-primary mb-3" value="Ask!">
+</div>
+
+</form>
